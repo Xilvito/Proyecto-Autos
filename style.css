@@ -28,6 +28,7 @@ header{
     width: 250px;
 }
 
+
 .search input{
     width: 300px;
     padding: 10px;
@@ -89,7 +90,7 @@ nav > ul > li > a{
 
 nav > ul > li > a:hover{
     transform: scale(1.1);
-    background: #f7f4f4;
+    background: #6f06f8;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 
 }
@@ -109,8 +110,17 @@ main{
 
 article{
     max-width: 800px;
-    left: 15%;
+    left: 58%;
     padding: 40px;
+    position: fixed;
+}
+
+#carouselExampleCaptions{
+    max-width: 800px;
+    padding: 20px 20px;
+    margin-top: 0;
+    left: 18%;
+    padding: 0;
     position: fixed;
 }
 
@@ -197,7 +207,17 @@ article{
     color: #fff;
 }
 
+h2{
+    color: #6f06f8;
+    font-size: 40px;
+    text-transform: uppercase;
+}
 
+p{
+    color: #6f06f8;
+    font-size: 20px;
+    text-transform: uppercase;
+}
 
 /*ELEMENTOS RESPONSIVO*/
 
