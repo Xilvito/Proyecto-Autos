@@ -284,4 +284,42 @@ article{
 
 
 
+col{
+    text-align: justify;
+    text-decoration-color: #b80f22;
+    background-color: aqua;
+}
 
+.col-1{
+    background-color: #ffffff;
+    
+
+}
+
+.col-4{
+    width: 100%;
+    text-align: center;
+    display: inline;
+}
+
+.col-6{
+    width: 100%;
+    text-align: center;
+    display: inline;
+}
+
+.col-3{
+   text-align: justify;
+   text-emphasis-color: red; 
+}
+
+.container_titulo{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    display: inline;
+
+}
