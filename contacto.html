@@ -43,32 +43,53 @@
     <br>
     <br>
 <main>
-<div class="container" style="text-align: center;">
-    <div class="col-1"></div>
-    <div class="col-4">
+<form>
+<div class="row g-3">
+    <div class="col-md-1"></div>
+    <div class="col-12">
         <div class="container_titulo">    
         Formulario de contactos
-        </div>
+        </div></div>
     <br>
-    Nombre: <input type="text" name="caja_nombre">
+    <div class="col-md-4">
+        <label for="caja_nombre" class="form-label">Nombre:</label>
+        <input type="text" class="form-control" id="caja_nombre" placeholder="Ingrese su nombre" required> 
+    </div>
+    <div class="col-md-4">
+        <label for="caja_apellido" class="form-label">Apellido:</label>
+        <input type="text" class="form-control" id="caja_apellido"placeholder="Ingrese su nombre" required>
+    </div>
     <br>
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
     <label for="start">Fecha:</label>
 
     <input type="date" id="start" name="trip-start"
         value="2023-01-22"
         min="2022-01-01" max="2100-12-31">
-    <br>
-    Correo electronico: <input type="text" name="caja_correo">
+    <br></div>
+    
+    <div class="col-md-4" >
+        <label for="caja_correo" class="form-label">Correo electronico:</label>
+        <input type="email" class="form-control" id="caja_correo" aria-describedby="emailHelp" placeholder="Ingrese email" style="display: inline-flex;" required>
+        
+      </div>
     <br>
     
     <div class="form-group">
-        <label for="exampleFormControlTextarea1">Comentarios o dudas:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="display: inline; width: 40%;"></textarea>
+        <div class="col-12" style="text-align: center;">
+        <label for="comentario_usuario">Comentarios o dudas:</label></div>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ingrese su duda o comentario" rows="3" style="align-items: center ; " required></textarea>
       </div> 
+      <div class="container_titulo">
+        <button type="submit" class="btn btn-primary" style="align-items: center;" >Envíar comentario</button>
+        </div>
     </div>
 </div>
+</form>   
+
 </main>
 <body>
-    
+   
 </body>
 </html>
