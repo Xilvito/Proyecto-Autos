@@ -13,18 +13,18 @@ function enviarformulariocontacto (){
         var MensajeError = [];
 
         if(caja_nombre.value === null || caja_nombre.value === ''){
-            MensajeError.push('Ingresar nombre de mecanico');            
+            MensajeError.push('Ingresar nombre de contacto');            
             }
 
         if(caja_apellido.value === null || caja_apellido.value === ''){
-            MensajeError.push('Ingresar apellido de mecanico');            
+            MensajeError.push('Ingresar apellido de contacto');            
             }
         if(caja_correo.value === null || caja_correo.value === ''){
             MensajeError.push('Ingresar correo electronico');            
             }
         
         if(Fecha.value === null || Fecha.value === ''){
-            MensajeError.push('Ingresar fecha de atención');            
+            MensajeError.push('Ingresar fecha');            
             }
 
         if(comentario_usuario.value === null || comentario_usuario.value === ''){
