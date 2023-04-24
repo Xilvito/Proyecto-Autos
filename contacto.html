@@ -62,9 +62,9 @@
     <br>
     <div class="col-md-4"></div>
     <div class="col-md-4">
-    <label for="start">Fecha:</label>
+    <label for="Fecha">Fecha:</label>
 
-    <input type="date" id="start" name="trip-start"
+    <input type="date" id="Fecha" name="trip-start"
         value="2023-01-22"
         min="2022-01-01" max="2100-12-31">
     <br></div>
@@ -79,17 +79,17 @@
     <div class="form-group">
         <div class="col-12" style="text-align: center;">
         <label for="comentario_usuario">Comentarios o dudas:</label></div>
-        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ingrese su duda o comentario" rows="3" style="align-items: center ; " required></textarea>
+        <textarea class="form-control" id="comentario_usuario" placeholder="Ingrese su duda o comentario" rows="3" style="align-items: center ; " required></textarea>
       </div> 
       <div class="container_titulo">
-        <button type="submit" class="btn btn-primary" style="align-items: center;" >Envíar comentario</button>
+        <input type="submit" class="btn btn-primary" onclick="return enviarformulariocontacto()" value='Envíar comentario' style="align-items: center;" >
         </div>
     </div>
 </div>
 </form>   
 
 </main>
-<body>
-   
+
+    <script src="validacion.js"></script>  
 </body>
 </html>
