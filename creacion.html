@@ -22,26 +22,29 @@
     <body class="cuerpo-login"></body>
     <div class="login-box">
         <img src="img/logo.png" alt="Logo" height="180px">
-        <h1>Registrate aqui</h1>
-        <form>
-            <!--Usuaurio-->
-            <label for="username">Usuario</label>
-            <input type="text" placeholder="Igrese Correo">
+        <h1>Login Aqui</h1>
 
-            <!--Password-->
-            <label for="password">Password</label>
-            <input type="password" placeholder="Ingrese Password">
+    <form action="">
+        <!--Usuaurio-->
+        <label for="username">Usuario</label>
+        <input type="text" id="Usuario" placeholder="Ingrese Correo">
 
-            <!--boton login-->
-            <input type="submit" value="Crear">
+        <!--Password-->
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Ingrese Password">
 
-            <!--referencias a creacion de cuenta y perdida de clave-->
+        <!--boton login-->
+        <input type="submit" onclick="return enviarFormulario();" value="Log In">
 
-            <a href="#">¿Perdiste tu clave?</a><br>
-            
-        </form>
+        <!--referencias a creacion de cuenta y perdida de clave-->
+
+        
+        <a href="#">¿Perdiste tu clave?</a><br>
+        <a href="creacion.html">¿No tienes usuario?</a>
+    </form>
+    <div id="error"></div>
     </div>
-    </body>
-
+    
+<script src="funciones.js"></script>
 </body>
 </html>
