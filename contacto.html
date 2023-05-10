@@ -12,7 +12,7 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header>
+    
         <div id="banner">
         <div class="header__superior">
             <div class="logo">
@@ -38,18 +38,18 @@
                         <li><a href="login.html">Login</a></li>
                         <li><a href="nuevas_atenciones.html">Atenciones</a></li>
                         <li><a href="creacion.html">Creacion de cuenta</a></li>
-                        <li><a href="contacto.html" id="selected">Contactos</a></li>
+                        <li><a href="contacto.html" id="selected">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
         </div>
-    </header>
+    
     <br>
     <br>
-<main>
+
 <form>
-<div class="row g-3">
+    <div class="row g-3">
     <div class="col-md-1"></div>
     <div class="col-12">
         <div class="container_titulo">    
@@ -78,22 +78,22 @@
         <label for="caja_correo" class="form-label">Correo electronico:</label>
         <input type="email" class="form-control" id="caja_correo" aria-describedby="emailHelp" placeholder="Ingrese email" style="display: inline-flex;" required>
         
-      </div>
+    </div>
     <br>
     
     <div class="form-group">
         <div class="col-12" style="text-align: center;">
         <label for="comentario_usuario">Comentarios o dudas:</label></div>
         <textarea class="form-control" id="comentario_usuario" placeholder="Ingrese su duda o comentario" rows="3" style="align-items: center ; " required></textarea>
-      </div> 
-      <div class="container_titulo">
+    </div> 
+    <div class="container_titulo">
         <input type="submit" class="btn btn-primary" onclick="return enviarformulariocontacto()" value='Envíar comentario' style="align-items: center;" >
         </div>
     </div>
-</div>
+
 </form>   
 
-</main>
+
 
     <script src="validacion.js"></script>  
 </body>
