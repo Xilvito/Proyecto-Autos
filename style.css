@@ -37,7 +37,7 @@ header{
 
 /*BARRRA MENU*/
 #banner{
-    background: url(img/banner.jpg) no-repeat;
+    background: url(img/Banner2.jpg) no-repeat;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -102,13 +102,36 @@ nav > ul > li > a:hover{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 
 }
-
+nav > ul > li > button:hover{
+    transform: scale(1.1);
+    background: #6f06f8;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
 #selected{
     transform: scale(1.1);
     background-color: #6f06f8;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
+/*modal*/
+#btn-abrir-modal{
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 300ms ease; transform: scale(1.1);
+    background-color: #000000;
+    tex
+}
 
+#modal::backdrop{
+    background-color: rgba(0,0,0,0.55);
+}
+
+#modal{
+    max-width: 50ch;
+    left: 40%;
+}
 /*carrusel*/
 
 #carouselExampleCaptions{
@@ -146,8 +169,6 @@ width: 100%;
     color: #fff;
     top: 50%;
     left: 50%;
-    position:absolute;
-    transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
 }
