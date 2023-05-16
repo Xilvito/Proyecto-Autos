@@ -440,6 +440,10 @@ col{
 	.card{
 		margin: 15px;
 	}
+
+    #carouselExampleCaptions{
+        margin-right: 15%;
+    }
 }
 
 
