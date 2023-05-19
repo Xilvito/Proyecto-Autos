@@ -35,6 +35,30 @@ header{
     padding: 10px;
 }
 
+/* Botones de trabajo*/
+.boton-engranaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: #2a2e30;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    margin: 20px auto;
+    margin-right: 100%;
+}
+
+.boton-engranaje:hover {
+    transform: rotate(45deg);
+}
 /*BARRRA MENU*/
 #banner{
     background: url(img/Banner2.jpg) no-repeat;
@@ -134,13 +158,19 @@ nav > ul > li > button:hover{
 }
 /*carrusel*/
 
-#carouselExampleCaptions{
-    max-width: 800px;
+#carouselExampleIndicators{
+    max-width: 600px;
     padding: 20px 20px;
     margin-top: 0;
-    left: 18%;
+    left: 30%;
     padding: 0;
     position: fixed;
+}
+
+/*Menu de trabajos*/
+#trabajos{
+    left: 90%;
+    color: #000000;
 }
 
 /* Login */
@@ -376,7 +406,7 @@ col{
     display: none;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 620px){
 
     .search input {
         display: none;
@@ -441,8 +471,8 @@ col{
 		margin: 15px;
 	}
 
-    #carouselExampleCaptions{
-        margin-right: 15%;
+    #carouselExampleIndicators{
+        margin-right: 25%;
     }
 }
 

@@ -31,7 +31,6 @@ function enviarformulario (){
             MensajeError.push('Ingresar datos de atención');            
             }
 
-       
 
             error.innerHTML = MensajeError.join(' , ');
             
